@@ -18,8 +18,6 @@ const Post = (props: { post: any }) => {
     primary_category: { name, description },
   } = post;
 
-  console.log({ description });
-
   return (
     <>
       <Card sx={{ maxWidth: 345 }}>
